@@ -390,7 +390,7 @@ function removeRole() {
     })
 }
 
-// View all deparments
+
 function viewDepartments() {
   db.findAllDepartments()
     .then(([rows]) => {
